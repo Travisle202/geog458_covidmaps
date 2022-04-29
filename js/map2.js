@@ -80,7 +80,7 @@ map.on('load', () => {
 const legend = document.getElementById('legend');
 
 //set up legend grades and labels
-var labels = ['<strong>Cases</strong>'],
+var labels = ['<strong>US Covid-19 Cases</strong>'],
     vbreak;
 //iterate through grades and create a scaled circle and label for each
 for (var i = 0; i < grades.length; i++) {
